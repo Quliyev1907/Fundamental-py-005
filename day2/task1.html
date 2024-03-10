@@ -2,11 +2,85 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=
-    , initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
 </head>
 <body>
-    hdfdsifhjk
+    <h1><legend>Information Form</legend></h1>
+    <form action="../day1/done.html" method="get">
+       <label for="full_name">First name: </label>
+        <input type="text" name="full_name" id="full_name" required />
+        <br />
+        <br /> 
+        <label for="full_name">Last name:</label>
+        <input type="text" name="full_name" id="full_name" required />
+        <br />
+        <br /> 
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="Type must be email" required />
+        <br />
+        <br /> 
+        <label for="password">Password: </label>
+        <input type="password" name="password" id="password" placeholder="Password mustn't show" required />
+        <br />
+        <br /> 
+        <label for="gender">Gender: </label>
+        <select name="gender" id="gender">
+           <option value="choose">Choose</option>
+           <option value="male">Male</option>
+           <option value="female">Female</option>
+            <option value="individual">individual</option>
+           </option>
+        </select>
+        <br />
+        <br /> 
+        <label for="favorite sports">Favorite sports: </label>
+        <br /> 
+        <input type="checkbox" name="football" id="football">
+        <label for="football">Football </label>
+        <input type="checkbox" name="basketball" id="basketball"> 
+        <label for="basketball">Basketball </label>
+        <input type="checkbox" name="tennis" id="tennis">
+        <label for="tennis">Tennis </label>
+        <input type="checkbox" name="fight" id="fight"> 
+        <label for="fight">Fight</label>
+        <br />
+        <br /> 
+        <label for="your age interval">Your Age Interval: </label>
+        <br />
+        <input type="radio" name="age" id="age">
+        <label for="15-25">15-25</label>
+        <br />
+        <input type="radio" name="age" id="age">
+        <label for="25-35">25-35</label>
+        <br />
+        <input type="radio" name="age" id="age">
+        <label for="35+">35+</label>
+        <br />
+        <br />  
+        <label for="range">English level: </label>
+        <input type="range" name="range" id="range"> 
+        <br />
+        <br /> 
+        <label for="number" >Phone: </label>
+        <input type="text" name="number" id="number" value="+994">
+        <br />
+        <br /> 
+        <label for="number" >Fav Number: </label>
+        <input type="number" name="number" id="number">
+        <br />
+        <br /> 
+        <label for="your image">Your image: </label>
+        <input type="file" id="your image">
+        <br />
+        <br /> 
+        <label for="about  you">About you:</label>
+        <br /> 
+        <textarea name="about you" id="about you" cols="30" rows="10"></textarea>      
+        <br />
+        <br /> 
+        <input type="submit" value="Submit">
+        <button type="reset">Reset</button>
+    </form>
 </body>
 </html>
