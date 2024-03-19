@@ -1,0 +1,45 @@
+* {
+box-sizing: border-box; 
+margin: 0;
+padding: 0;
+font-family: 'Times new roman' , Georgia , Serif ;
+}
+#header {
+      background-color: rgb(255, 255, 255) ;
+      padding: 3px;
+      height: 56px;
+}
+
+.link{
+    display: inline-block;
+    color: black;
+    padding: 1vmax ; 
+    text-decoration: none;
+}
+.link:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(212, 212, 212);
+}
+
+#left_side_header {
+    float: left;
+}
+
+#right_side_header {
+    float: right;
+}
+
+#carousel-image{
+    width: 1906px ;
+    height: 900px;   
+    background-image: url(./hamburger.jpg);
+    background-size:cover ;
+    position: relative;
+}
+
+.info{
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+    bottom: 1px;
+}
