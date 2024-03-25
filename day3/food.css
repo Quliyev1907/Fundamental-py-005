@@ -2,19 +2,35 @@
 box-sizing: border-box; 
 margin: 0;
 padding: 0;
-font-family: 'Times new roman' , Georgia , Serif ;
 }
+
+.info p,
+.info h1,h2,h3,h4,h5,h6{ 
+    font-family: "Times new roman" ,Georgia , Serif ;
+}
+
+#body {
+    position: relative;
+}
+
 #header {
       background-color: rgb(255, 255, 255) ;
-      padding: 3px;
+      padding: 9px;
       height: 56px;
+      letter-spacing: 4px;
+      position:sticky;
+      top: 0;
+      z-index: 1;
+      width: 100%;
 }
 
 .link{
     display: inline-block;
     color: black;
-    padding: 1vmax ; 
+    padding: 1vmin ; 
     text-decoration: none;
+    font-size: 15px;
+    
 }
 .link:hover {
     color: rgb(0, 0, 0);
@@ -30,16 +46,51 @@ font-family: 'Times new roman' , Georgia , Serif ;
 }
 
 #carousel-image{
-    width: 1906px ;
-    height: 900px;   
+    width: 100%;
+    height: 750px;   
+    padding-top: 700px;
     background-image: url(./hamburger.jpg);
     background-size:cover ;
-    position: relative;
+    position:static;
 }
 
 .info{
     position: absolute;
     bottom: 0;
-    padding: 10px;
-    bottom: 1px;
+    padding-bottom: 22px;
+    bottom: 180px;
+}
+
+#about {
+    font-family: 'Times New Roman', Georgia, serif;
+    padding-top: 100px;
+    letter-spacing: 5px;
+    font-size: 31px;
+    font-weight: lighter;
+}
+#about {
+    padding-top: 90px; 
+    width:60%;
+    margin: auto;
+    text-align: center;
+}
+#about .motto {
+    font-family: 'Times New Roman', Georgia, serif;
+    color: black ;
+    font-size:18px;
+    font-weight: lighter;
+    margin-bottom: 30px;
+}
+#table {
+    background-image: url(./yemek.jpg);
+    width: 600px;
+    height: 700px;
+    margin: 45px;
+}
+
+#lorem {
+      font-size: 18px;
+      color: black;
+      line-height: 1.5;
+      text-align: justify;
 }
