@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Karma", sans-serif;
+}
+
+body{
+    line-height:1.5
+}
+
+div{
+    display:block
+}
+.sectiondiv {
+    display: flex;
+    padding: 16px 8px;
+    font-size: 24px;
+    padding: 16px;
+}
+
+.head {
+    position: fixed;
+    background-color: white;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.section {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    padding: 8px 16px;
+    position: relative
+}
+
+
+.imageee{
+    max-width: 100%;
+    height: auto;
+    padding: 8px;
+}
+
+
+.image h3{
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0.4px;
+}
+
+.image p{
+    text-align: center;
+    margin: 10px 0;
+}
+
+
+
