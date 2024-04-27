@@ -107,6 +107,7 @@ a {
     color:#ffffff;
 }
 
+.black:hover{background-color: gray;}
 
 footer h3 {
     font-weight: 400;
@@ -119,7 +120,6 @@ footer h3 {
     margin: 0;
     list-style-type: none;
     padding: 8px 16px;
-    border-bottom: 1px solid #ddd;
     width: 100%;
 }
 
@@ -127,7 +127,9 @@ footer h3 {
     padding-top: 16px !important;
     padding-bottom: 16px !important;
     box-sizing: inherit;
+    border-bottom: 1px solid #ddd;
 }
+
 .li:hover{
     background-color: #b6b6b6;}
 .Span{
@@ -138,4 +140,9 @@ footer h3 {
     padding-left: 8px;
     padding-right: 8px;
     text-align: center;
+}
+
+
+.end{
+   margin-right: 10px;
 }
