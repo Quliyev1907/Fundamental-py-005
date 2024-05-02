@@ -1,0 +1,64 @@
+# task2
+def sum(reqem):
+    cem = 0
+    
+    for x in reqem:
+        cem = cem + x
+    
+    return cem
+
+print(sum((8, 2, 3, 0, 7))) 
+
+
+# task3
+def sum(reqem):
+    hasil = 1
+    for x in reqem:
+        hasil = hasil * x
+        
+    return hasil
+
+print(sum((8, 2, 3, -1, 7))) 
+
+# task5
+def sum(n):
+    if n == 0:
+        return 1
+    else:
+        return n*sum(n - 1)
+
+n = int(input("Reqem qeyd edin: "))
+
+print(sum(n))
+
+# task9
+def sade_eded(n):
+    if (n == 1):
+        
+        return False
+    
+    elif (n == 2):
+
+        return True
+    else:
+        for x in range(2, n):
+            
+            if (n % x == 0):
+                
+                return False
+        return True
+
+print(sade_eded(23))
+
+# task10
+def cüt(list):
+    
+    cüt = []
+    
+    for n in list:
+        
+        if n % 2 == 0:
+            cüt.append(n)
+    
+    return cüt
+print(cüt([1, 2, 3, 4, 5, 6, 7, 8, 9])) 
